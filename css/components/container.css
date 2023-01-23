@@ -1,0 +1,38 @@
+.container {
+  width: 1250px;
+  padding: 35px;
+	margin: auto;
+}
+.card-list {
+  overflow: hidden;
+  height: auto;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.card-list img {
+  height: 100%;
+  width: 400px;
+  object-fit: cover;
+}
+
+.card-list h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-list p {
+  font-size: 18px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-list  .card-list-info {
+  padding: 16px;
+}
